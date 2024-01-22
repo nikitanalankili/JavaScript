@@ -16,25 +16,9 @@ function fun(a,b)
         }
     }
 }
-function fun2(a,b)
-{
-    var result = []
-    var result_o = []
-    console.log("Function with argument and without return type")
-    for (var i=a;i<b;i++)
-    {
-        if(i%2==0)
-        {
-            result.add(i)
-        }
-        else{
-            result_o.add(i) 
-        }
-    }
-    return result
-}
+
 fun1()
-c,d = fun2(1,10)
+fun(5,10)
 if(c==true)
 {
     console.log("The number is even and the number is : ",d)
