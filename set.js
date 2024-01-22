@@ -18,11 +18,20 @@ for(element of setExample)
 console.log("\n")
 
 //MAP
-mapExample = new Map([["ID","21ECR132"],["Name","Nikita"]])
-console.log(mapExample)
-for(element of mapExample)
-{
-    console.log("The element is ",element)
-}
-console.log("\n")
-console.log(mapExample.has("Name"))
+let mapExample = new Map([
+    ["ID", "21ECR132"],
+    ["Name", "Nikita"]
+  ]);
+  
+  for (let [key, value] of mapExample) {
+    console.log("The element is ", key, value)
+  }
+  
+  console.log("\n")
+  console.log(mapExample.has("Name"))
+  console.log("The full set is : ",mapExample)
+  mapExample.set("Phone number", "9487633946")
+  mapExample.delete("Phone number")
+  console.log("\n")
+  console.log("The map after deleting element is : ",mapExample)
+  
