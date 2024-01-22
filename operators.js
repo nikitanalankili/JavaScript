@@ -13,9 +13,19 @@ console.log("Mod of a and b is : ",a%b)
 
 //logical operator -> &&,||,!
 
-var a = 54759508
-var b = -1
+var a = 10
+var b = 5
 console.log("AND operation : " , a&&b)
 console.log("OR operation : " , a||b)
 console.log("NOT operation : " , !b)
-console.log((100||20)&&0)
+// console.log((100||20)&&0)
+
+
+//relational operators -> <,>,<=,>=,===,!==
+
+console.log("Relational operator > is : ",a>b)
+console.log("Relational operator < is : ",a<b)
+console.log("Relational operator >= is : ",a>=b)
+console.log("Relational operator <= is : ",a<=b)
+console.log("Relational operator == is : ",a==b)
+console.log("Relational operator != is : ",a!=b)
