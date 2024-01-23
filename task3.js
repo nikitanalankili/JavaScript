@@ -1,5 +1,4 @@
 //CallBack
-//drawback : if not under 2 sec then no output comes 
 /*var RamuSomu = (WelcomeMessage,CallBack) =>
 {
     setTimeout(function(){
@@ -12,7 +11,8 @@ var miniani = () =>
     console.log("Thambi vandam poidu.....")
 }
 RamuSomu("Hello Ramu and Somu \nWelcome to KEC",miniani)*/
-var isAuthenticated = () => {
+// PROMISE 
+/*var isAuthenticated = () => {
     return Math.random() > 1;
   }
   var Login = () => {
@@ -32,4 +32,19 @@ var isAuthenticated = () => {
     })
     .catch(function (message) {
       console.log(message);
-    });
+    });*/
+
+  //ASYNC-AWAIT
+
+  var asaw = async () => {
+    var promise = new Promise(
+        function (resolve, reject) {
+            setTimeout(function(){
+                resolve("Example of async await");
+            }, 1000);
+        }
+    );
+    console.log(await promise);
+};
+
+asaw();
