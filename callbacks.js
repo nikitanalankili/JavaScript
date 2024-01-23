@@ -11,4 +11,4 @@ function miniani()
 {
     console.log("Thambi vandam poidu.....")
 }
-RamuSomu("Hello Ramu and Somu \n Welcome to KEC",miniani)
+RamuSomu("Hello Ramu and Somu \nWelcome to KEC",miniani)
