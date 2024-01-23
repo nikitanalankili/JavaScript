@@ -12,7 +12,7 @@ var [a,b,c,d,e] = array
 console.log(a,b,c,d,e)*/
 
 //spread operator 
-/*var array = [10,20,30,40]
+var array = [10,20,30,40]
 var array1 = [...array,50,60]
 console.log(array1) 
-console.log(array)*/
+console.log(array)
